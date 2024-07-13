@@ -1,1 +1,3 @@
-<p>This is a todo components</p>
+<div *ngFor="let todo of todos">
+  <app-todo-item [todo]="todo"></app-todo-item>
+</div>
