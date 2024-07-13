@@ -14,7 +14,7 @@ export class TodoItemComponent {
 
   constructor() {}
   onClick(todo: Todo){
-    console.log(`${todo.title} has been deleted`);
+    // console.log(`${todo.title} has been deleted`);
     this.todoDelete.emit(todo);
   }
 }

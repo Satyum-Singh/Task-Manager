@@ -1,1 +1,26 @@
-<p>add-todo works!</p>
+<div class="my-3">
+  <h3>Add your Todos</h3>
+  <form (ngSubmit)="OnSubmit()">
+    <div class="mb-3">
+      <label for="title" class="form-label">Todo Title</label>
+      <input
+        type="text"
+        class="form-control"
+        id="title"
+        name="title"
+        [(ngModel)]="title"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="desc" class="form-label">Todo Description</label>
+      <input
+        type="text"
+        name="desc"
+        id="desc"
+        [(ngModel)]="desc"
+        class="form-control"
+      />
+    </div>
+    <button type="submit" class="btn btn-success">Add Todo</button>
+  </form>
+</div>
