@@ -1,5 +1,5 @@
 {
-  "name": "cwh-todo-list",
+  "name": "Task Manager",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
